@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<style>
+		
+			.h1{
+				 margin-left:50%;
+				
+			
+			}
+		
+			.container{
+			    margin-left:50%;
+			    margin-top:50px;
+			    width:303px;
+				height:50px;
+				background-color:#2F4F4F;
+				color:white;
+				text-align:center;
+				text-color:white;
+				
+			
+			
+			}
+			
+			#headline{
+				padding-top:15px;
+				font-family:Calibri;
+				
+			}
+			
+		
+			.progress{
+			    margin-left:50%;
+				margin-top:10px;
+			    width:300px;
+				
+				height:10px;
+				background: linear-gradient(to right, #EF5F3C 80%, white 20%);
+				border-style: solid;
+				border-color: #eaeaea;
+				border-width:thin;
+				
+			
+			}
+			
+			.content{
+			    margin-left:50%;
+			    width:280px;
+				height:250px;
+				border-style: solid;
+				border-color: #eaeaea;
+				border-width:thin;
+				padding-left:20px;
+				
+				
+								
+			
+			}
+			
+			#orange{
+				color: #EF5F3C;
+			
+			}
+			
+			.text{
+			
+				color:gray;
+			
+			}
+			
+			
+			
+			#input{
+				width:100px;
+				height:50px;
+				padding-left:20px;
+				border-radius:4px;
+				border-width:thin;
+				font-weight: bold;
+				font-size: 1em;
+				
+			
+			}
+			
+			#give{
+			    background-color:  #1CBC2C;
+				border: none;
+				border-radius:4px;
+				color: white;
+				padding: 18px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				border-width:thin;
+							
+			}
+			
+			#text3{
+				color: #20A1D4;
+			
+			}
+			
+			#save{
+				color:#777;
+				margin-left:50%;
+				width:140px;
+				height:40px;
+				border-radius:4px;
+				border-width:thin;
+				font-weight:bold;
+			
+			}
+			
+			#tell{
+				color:#777;
+				width:140px;
+				height:40px;
+				position:relative;
+				left:20px;
+				border-radius:4px;
+				border-width:thin;
+				font-weight:bold;
+				
+			
+			}
+			
+			a {
+				text-decoration: none;
+			}
+			
+			a:visited{
+			
+				color: inherit;
+		
+			}
+			
+			
+		
+		</style>
+		
+		
+			
+		
+		
+					
+	</head>
+	
+	<body   >
+	
+		<h1 class="h1">Hope I succeeded</h1>
+	
+		<div class="container">
+			<p id="headline"><span class="number"><strong>$167</strong></span> still needed for this project<p>
+		
+		</div>
+		
+		<div class="progress">
+		
+		</div>
+		
+		<div class="content">
+			<p class="text"><span id="orange"><strong>Only 3 days left </strong></span>to fund this project.</p>
+			
+			<p class="text">Join the <span class="gary"><strong>42</strong></span> other donors who have<br>already supported this project.Every<br>dollar helps.</p>
+		
+			<input id="input" type="text" placeholder="$ 50"> <button id="give" onclick="GiveNow()">Give now </button>
+			
+			<p id="text3"><em><a href="https://www.thelifeyoucansave.org/blog/id/200/9-positive-effects-of-donating-money-to-charity">Why give $50?</a></em></p>
+		</div>
+		<br>
+		
+		<button id="save" onclick="Save()">Save for later</button>   <button id="tell" onclick="Tell()">Tell your friends</button>
+		
+		
+		
+    <script>
+		
+		   
+			
+			
+			function GiveNow(){
+			
+			   var d =  input.value;
+			
+			    if( d == 50 ){
+					alert("Tanks for your donation!");
+		
+				}else if(d>50){
+					alert("You can donate only 50$!")
+				}
+				
+				
+				else{
+					alert("You did not donate");
+				
+				}
+			    	
+				input.value = "";
+			
+			
+			}
+			
+			function Tell(){
+			
+				
+						
+			}
+			
+			
+			function Save() {
+			
+				
+				
+			
+			}
+		</script>
+		
+		
+		
+		
+		
+	</body>
+
+
+
+
+</html>
